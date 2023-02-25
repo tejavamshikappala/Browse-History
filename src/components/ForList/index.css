@@ -1,0 +1,86 @@
+.forList {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 10px;
+}
+.forInner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.forClass {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.forPara1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #475569;
+  font-weight: bold;
+
+  font-size: 13px;
+}
+
+.forParaDomain {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #475569;
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.forImage {
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+}
+.forImageDelete {
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  flex-grow: 1;
+}
+.forpara {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 14px;
+}
+.forButton {
+  padding: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: auto;
+}
+.forEx {
+}
+@media screen and (min-width: 768px) {
+  .forList {
+    flex-direction: row;
+  }
+  .forClass {
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: wrap;
+  }
+  .forPara1 {
+    font-size: 14px;
+    margin: 4px;
+    font-weight: 700;
+  }
+  .forParaDomain {
+    font-size: 14px;
+    margin: 4px;
+  }
+  .forpara {
+    margin-top: 8px;
+    margin-right: 30px;
+    flex-shrink: 0;
+  }
+  .forClass {
+    width: 68vw;
+  }
+}
